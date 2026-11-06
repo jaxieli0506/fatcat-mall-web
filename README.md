@@ -3,8 +3,7 @@
 > 資展國際（iSpan）結訓專題・4 人團隊・2025/07 – 2025/08
 > 以 **Vue 3 + Vite** 打造的電商平台前端（前台購物網站 + 後台管理系統），搭配 [後端 API](https://github.com/jaxieli0506/fatcat-mall-api)。
 
-<!-- TODO: 放幾張畫面截圖 / GIF（首頁、登入、會員中心、後台） -->
-<!-- ![首頁](docs/home.png) -->
+![登入頁](docs/login.png)
 
 ## 技術棧
 
@@ -30,6 +29,8 @@
 - 登入頁整合 Google、Facebook、LINE 三種第三方登入；LINE 採 OAuth redirect，另建 callback 頁面處理授權碼
 - 會員中心可綁定第三方帳號
 - 忘記密碼、重設密碼、修改密碼流程
+![第三方登入](docs/oauth.gif)
+
 - 相關檔案：[`LoginForm.vue`](src/components/LoginForm.vue)、[`exLoginService.js`](src/services/exLoginService.js)、[`LineCallbackView.vue`](src/views/LineCallbackView.vue)、[`ForgotPasswordView.vue`](src/views/ForgotPasswordView.vue)、[`stores/auth.js`](src/stores/auth.js)
 
 ### 2. 統一 API 層與 Token 管理
@@ -41,11 +42,15 @@
 - 個人資料編輯、收件地址管理（縣市 / 區域連動下拉選單）
 - 串接綠界電子地圖選擇 7-11 取貨門市，並帶入購物車與結帳流程
 - 結帳頁加入登入路由守衛（未登入不可結帳）
+![地址管理與超商門市](docs/store.gif)
+
 - 相關檔案：[`UserView.vue`](src/views/UserView.vue)、[`AddressForm.vue`](src/components/AddressForm.vue)、[`AddressManager.vue`](src/components/AddressManager.vue)、[`ShippingForm.vue`](src/components/ShippingForm.vue)
 
 ### 4. 通知系統
 - Header 小鈴鐺即時顯示未讀數量，管理員發送通知或商品上架時同步刷新
 - 會員通知中心、後台通知發送頁面
+![通知系統：後台發送、前台即時顯示](docs/notify.gif)
+
 - 相關檔案：[`NotificationView.vue`](src/views/NotificationView.vue)、[`stores/notification.js`](src/stores/notification.js)、[`AdminNotificationView.vue`](src/views/Admin/AdminNotificationView.vue)
 
 ### 5. 後台管理員 / 會員管理
