@@ -23,7 +23,7 @@
 
 ## 🙋‍♀️ 我負責的部分
 
-> 前端也由我擔任 **Git 整合負責人**；原始團隊 repo 共 522 個 commits，個人貢獻 181 個（含合併），為團隊最多。
+> 前端也由我擔任 **Git 整合負責人**；原始團隊 repo 共 522 個 commits，個人貢獻 181 個（含合併）。
 
 ### 1. 會員登入 / 註冊 / 第三方登入
 - 登入頁整合 Google、Facebook、LINE 三種第三方登入；LINE 採 OAuth redirect，另建 callback 頁面處理授權碼
