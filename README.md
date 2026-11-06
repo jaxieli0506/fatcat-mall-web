@@ -1,7 +1,7 @@
 # Fat Cat 購物商城 — 前端
 
 > 資展國際（iSpan）結訓專題・4 人團隊・2025/07 – 2025/08
-> 以 **Vue 3 + Vite** 打造的電商平台前端（前台購物網站 + 後台管理系統），搭配 [後端 API](https://github.com/jaxieli0506/fatcat-mall-api-)。
+> 以 **Vue 3 + Vite** 打造的電商平台前端（前台購物網站 + 後台管理系統），搭配 [後端 API](https://github.com/jaxieli0506/fatcat-mall-api)。
 
 <!-- TODO: 放幾張畫面截圖 / GIF（首頁、登入、會員中心、後台） -->
 <!-- ![首頁](docs/home.png) -->
@@ -58,7 +58,7 @@
 
 ## 本機執行
 
-**需求**：Node.js 20+、已啟動的[後端 API](https://github.com/jaxieli0506/fatcat-mall-api-)（預設 `https://localhost:7017`）
+**需求**：Node.js 20+、已啟動的[後端 API](https://github.com/jaxieli0506/fatcat-mall-api)（預設 `https://localhost:7017`）
 
 ```bash
 npm install
